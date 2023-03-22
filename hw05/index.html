@@ -201,7 +201,7 @@
         </tr>
         <tr>
           <td rowspan="7" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>2</td>
           <td>Simple baseline - 使用守寫字(舊版)製作字型</td>
         </tr>
@@ -211,7 +211,7 @@
           <td>Medium baseline - 使用Flexi Font 系統製作字型</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>6</td>
           <td>Strong baseline - 繳交實體的紙本稿紙 (限定紙本) </td>
         </tr>
@@ -244,10 +244,6 @@
   d3.select("#myCheckbox1").on("change",update);
   d3.select("#myCheckbox2").on("change",update);
   d3.select("#myCheckbox3").on("change",update);
-  d3.select("#myCheckbox4").on("change",update);
-  d3.select("#myCheckbox5").on("change",update);
-  d3.select("#myCheckbox6").on("change",update);
-  d3.select("#myCheckbox7").on("change",update);
 
   update();
   
